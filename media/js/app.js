@@ -27,11 +27,20 @@ angular.module('FoxApp', ['ngTouch'])
         ['Seal', 'seal'],
     ];
     $scope.play = function(e) {
+        var $target = $(e.target);
+        $target = $target.add($target.parent('a'));
+
         $('audio').each(function(i, audio) {
             // Stop all other sounds.
             audio.pause();
             audio.currentTime = 0;
         });
-        $(e.target).find('audio, + audio')[0].play();
+        $target.find('audio')[0].play();
+
+        // Click animation
+        $target.addClass('clicked');
+        setTimeout(function() {
+            $target.removeClass('clicked');
+        }, 200);
     }
 }]);

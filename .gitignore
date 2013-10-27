@@ -2,3 +2,4 @@
 *.m4a
 *.swp
 *sass-cache*
+.DS_Store
