@@ -1,0 +1,80 @@
+@import 'mixins';
+
+// Fonts
+$helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+@mixin def-box-shadow() {
+    @include box-shadow(0 1px 2px $border_color);
+}
+
+@mixin clearfix {
+  zoom: 1;
+  &:before, &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+.c {
+  @include clearfix;
+}
+
+@mixin ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin wrap-text{
+    white-space: normal;
+    overflow: visible;
+}
+
+@mixin hide-text{
+    text-indent: -9999px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@mixin img-and-vertical-gradient($image, $start: #000, $stop: #FFF) {
+    background: $image $start;
+    background: $image, -webkit-gradient(linear, left top, left bottom, from($start), to($stop));
+    background: $image, -webkit-linear-gradient($start, $stop);
+    background: $image, -moz-linear-gradient(center top, $start 0%, $stop 100%);
+    background: $image, -moz-gradient(center top, $start 0%, $stop 100%);
+    background: $image, -ms-linear-gradient($start 0%, $stop 100%);
+    background: $image, linear-gradient($start, $stop);
+}
+
+@mixin soy-animate($name, $duration: 1s, $timing: ease, $fill: both, $delay: 230ms, $iterations: 1){
+    -webkit-animation-name: $name;
+    -webkit-animation-duration: $duration;
+    -webkit-animation-timing-function: $timing;
+    -webkit-animation-fill-mode: $fill;
+    -webkit-animation-delay: $delay;
+    -webkit-animation-iteration-count: $iterations;
+
+    -moz-animation-name: $name;
+    -moz-animation-duration: $duration;
+    -moz-animation-timing-function: $timing;
+    -moz-animation-fill-mode: $fill;
+    -moz-animation-delay: $delay;
+    -moz-animation-iteration-count: $iterations;
+
+    -ms-animation-name: $name;
+    -ms-animation-duration: $duration;
+    -ms-animation-timing-function: $timing;
+    -ms-animation-fill-mode: $fill;
+    -ms-animation-delay: $delay;
+    -ms-animation-iteration-count: $iterations;
+
+    animation-name: $name;
+    animation-duration: $duration;
+    animation-timing-function: $timing;
+    animation-fill-mode: $fill;
+    -animation-delay: $delay;
+    animation-iteration-count: $iterations;
+}
