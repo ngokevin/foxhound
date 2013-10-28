@@ -69,7 +69,7 @@ h1 {
         cursor: pointer;
     }
     &.ng-click-active, &.clicked {
-        background: linear-gradient(to bottom, $highlight, darken($highlight, 10%));
+        background: $highlight;
     }
     span {
         font-size: 13px;

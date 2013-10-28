@@ -357,7 +357,7 @@ h1 {
   .sound:hover {
     cursor: pointer; }
   .sound.ng-click-active, .sound.clicked {
-    background: linear-gradient(to bottom, #fc8f2a, #f07503); }
+    background: #fc8f2a; }
   .sound span {
     font-size: 13px;
     left: 0;
