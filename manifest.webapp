@@ -5,6 +5,7 @@
   "launch_path": "/",
   "icons": {
     "16": "/media/img/favicon.ico",
+    "48": "/media/img/icon-32.png",
     "48": "/media/img/icon-48.png",
     "60": "/media/img/icon-60.png",
     "90": "/media/img/icon-90.png",
