@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "name": "Foxsay",
+  "description": "What Does the Fox Say soundboard.",
+  "launch_path": "/",
+  "icons": {
+    "16": "/img/icon-16.png",
+    "48": "/img/icon-48.png",
+    "60": "/img/icon-60.png",
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Kevin Ngo",
+    "url": "http://ngokevin.com"
+  },
+  "installs_allowed_from": [
+    "http://marketplace.mozilla.org",
+    "https://marketplace.firefox.com"
+  ],
+  "locales": {
+  },
+  "default_locale": "en"
+}
