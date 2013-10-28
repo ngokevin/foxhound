@@ -32,6 +32,7 @@ angular.module('FoxApp', ['ngTouch'])
 
         $('audio').each(function(i, audio) {
             // Stop all other sounds.
+            console.log(audio);
             audio.pause();
             audio.currentTime = 0;
         });

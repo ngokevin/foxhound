@@ -30,7 +30,7 @@ html body .hidden {
 
 h1 {
     @include box-shadow(0 0 1px 1px $shadow);
-    background: linear-gradient(to bottom, $header-bg, darken($header-bg, 10%));
+    @include linear-gradient($header-bg, darken($header-bg, 10%));
     color: $light-text-color;
     font-family: 'Swanky and Moo Moo', cursive;
     font-size: 28px;
@@ -83,7 +83,7 @@ h1 {
 
 .footer {
     @include box-shadow(0 0 1px 1px $shadow);
-    background: linear-gradient(to bottom, $header-bg, darken($header-bg, 15%));
+    @include linear-gradient($header-bg, darken($header-bg, 10%));
     bottom: 0;
     height: 2%;
     left: 0;
