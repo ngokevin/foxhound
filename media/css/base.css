@@ -1,3 +1,39 @@
+@media screen and (min-width: 360px) {
+  html h1 {
+    padding-bottom: 8%;
+    padding-top: 8%; }
+    html h1 img {
+      margin-top: -5px;
+      right: 10px; }
+
+  a.sound span {
+    font-size: 15px; }
+
+  div.footer {
+    height: 5%; } }
+@media screen and (min-width: 768px) {
+  html h1 {
+    font-size: 40px;
+    padding-bottom: 7%;
+    padding-top: 7%; }
+    html h1 img {
+      margin-top: -50px;
+      right: 10px; }
+
+  a.sound {
+    width: 20%;
+    padding-bottom: 20%; } }
+@media screen and (min-width: 980px) {
+  html h1 img {
+    margin-top: -80px; }
+
+  a.sound {
+    width: 10%;
+    padding-bottom: 10%; } }
+@media screen and (min-width: 1280px) {
+  html h1 img {
+    margin-top: -85px;
+    max-width: 50%; } }
 @font-face {
   font-family: 'FiraSans';
   src: url("../fnt/FiraSans/FiraSans/FiraSans-Regular.eot");
@@ -298,7 +334,7 @@ h1 {
     right: 0;
     top: 0; }
 
-a.sound {
+.sound {
   -webkit-box-shadow: inset 0 1px 1px rgba(10, 10, 10, 0.1);
   -moz-box-shadow: inset 0 1px 1px rgba(10, 10, 10, 0.1);
   -ms-box-shadow: inset 0 1px 1px rgba(10, 10, 10, 0.1);
@@ -318,11 +354,11 @@ a.sound {
   padding-bottom: 25%;
   position: relative;
   text-align: center; }
-  a.sound:hover {
+  .sound:hover {
     cursor: pointer; }
-  a.sound.ng-click-active, a.sound.clicked {
+  .sound.ng-click-active, .sound.clicked {
     background: linear-gradient(to bottom, #fc8f2a, #f07503); }
-  a.sound span {
+  .sound span {
     font-size: 13px;
     left: 0;
     right: 0;
