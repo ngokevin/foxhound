@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Time: Mon Oct 28 2013 01:16:01 GMT+0000 (UTC)
+# Time: Mon Oct 29 2013 01:16:01 GMT+0000 (UTC)
 
 CACHE:
 media/css/base.css
@@ -14,27 +14,27 @@ media/fnt/FiraSans/FiraSans-Light.woff
 media/fnt/FiraSans/FiraSans-Regular.woff
 media/fnt/FiraSans/FiraSans-Medium.woff
 media/fnt/FiraSans/FiraSans-Bold.woff
-media/snd/ogg/ahee.ogg
-media/snd/ogg/aoo.ogg
-media/snd/ogg/bird.ogg
-media/snd/ogg/bop.ogg
-media/snd/ogg/cat.ogg
-media/snd/ogg/cow.ogg
-media/snd/ogg/cow.ogg
-media/snd/ogg/ding.ogg
-media/snd/ogg/dog.ogg
-media/snd/ogg/duck.ogg
-media/snd/ogg/elephant.ogg
-media/snd/ogg/fish.ogg
-media/snd/ogg/foxsay.ogg
-media/snd/ogg/frak.ogg
-media/snd/ogg/frog.ogg
-media/snd/ogg/hatee.ogg
-media/snd/ogg/jacha.ogg
-media/snd/ogg/joff.ogg
-media/snd/ogg/mouse.ogg
-media/snd/ogg/seal.ogg
-media/snd/ogg/wapow.ogg
+media/snd/wav/ahee.wav
+media/snd/wav/aoo.wav
+media/snd/wav/bird.wav
+media/snd/wav/bop.wav
+media/snd/wav/cat.wav
+media/snd/wav/cow.wav
+media/snd/wav/cow.wav
+media/snd/wav/ding.wav
+media/snd/wav/dog.wav
+media/snd/wav/duck.wav
+media/snd/wav/elephant.wav
+media/snd/wav/fish.wav
+media/snd/wav/foxsay.wav
+media/snd/wav/frak.wav
+media/snd/wav/frog.wav
+media/snd/wav/hatee.wav
+media/snd/wav/jacha.wav
+media/snd/wav/joff.wav
+media/snd/wav/mouse.wav
+media/snd/wav/seal.wav
+media/snd/wav/wapow.wav
 
 NETWORK:
 *
